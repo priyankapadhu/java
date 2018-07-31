@@ -1,0 +1,15 @@
+import java.lang.*;
+ public class Main  
+ {
+ public static void main(String[] args)
+ {
+    String str1 = "";    
+	int len = str1.length();
+	if(len >= 6)
+		System.out.println( str1.substring(0, 6));
+	else if(len == 1)
+		System.out.println( (str1.charAt(0)+"***"));
+	else
+		System.out.println("***");
+	}
+}
